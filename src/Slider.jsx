@@ -340,11 +340,10 @@ var Slider = React.createClass({
     }
 
     return (
-      <a className={className}
+      <span className={className}
         ref = "handle"
         style = {handleStyle}
-        href = "#"
-        onMouseDown={this.handleMouseDown}></a>
+        onMouseDown={this.handleMouseDown}></span>
     );
   },
 
